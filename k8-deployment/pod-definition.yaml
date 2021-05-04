@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: node-app-1
+  labels:
+    name: node-app-1
+    app: node
+spec:
+  containers:
+    - name: app-container
+      image: 104466/node-app-1
